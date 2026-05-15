@@ -9,7 +9,7 @@ namespace RuleWayECommerce.Application.Validators
         {
             RuleFor(p => p.Title)
                 .NotEmpty().WithMessage("Title is required.")
-                .MaximumLength(100).WithMessage("Title cannot exceed 100 characters.");
+                .MaximumLength(200).WithMessage("Title cannot exceed 200 characters.");
             RuleFor(p => p.Description)
                 .NotEmpty().WithMessage("Description is required.")
                 .MaximumLength(1000).WithMessage("Description cannot exceed 1000 characters.");
