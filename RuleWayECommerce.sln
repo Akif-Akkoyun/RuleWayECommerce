@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6FC80D59-56EA-486E-AF1A-07EE093B549E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8746FC1C-8DF1-410A-853E-EE71FAFC03B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleWayECommerce.Application", "Core\RuleWayECommerce.Application\RuleWayECommerce.Application.csproj", "{017AD4AC-1819-4C15-BB4D-E7198F4AEA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleWayECommerce.Domain", "Core\RuleWayECommerce.Domain\RuleWayECommerce.Domain.csproj", "{5FEECB7D-82C0-47D2-97B4-88CFC6CC0DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleWayECommerce.Persistence", "Infrastructure\RuleWayECommerce.Persistence\RuleWayECommerce.Persistence.csproj", "{9AAA8A81-735A-44FB-97B5-C8A15F0D3BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleWayECommerce.WebApi", "Presentation\RuleWayECommerce.WebApi\RuleWayECommerce.WebApi.csproj", "{E61C0D60-66B4-4619-8D84-2096531C237A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{017AD4AC-1819-4C15-BB4D-E7198F4AEA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017AD4AC-1819-4C15-BB4D-E7198F4AEA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017AD4AC-1819-4C15-BB4D-E7198F4AEA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017AD4AC-1819-4C15-BB4D-E7198F4AEA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEECB7D-82C0-47D2-97B4-88CFC6CC0DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEECB7D-82C0-47D2-97B4-88CFC6CC0DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEECB7D-82C0-47D2-97B4-88CFC6CC0DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEECB7D-82C0-47D2-97B4-88CFC6CC0DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAA8A81-735A-44FB-97B5-C8A15F0D3BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAA8A81-735A-44FB-97B5-C8A15F0D3BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAA8A81-735A-44FB-97B5-C8A15F0D3BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAA8A81-735A-44FB-97B5-C8A15F0D3BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61C0D60-66B4-4619-8D84-2096531C237A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61C0D60-66B4-4619-8D84-2096531C237A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61C0D60-66B4-4619-8D84-2096531C237A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61C0D60-66B4-4619-8D84-2096531C237A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{017AD4AC-1819-4C15-BB4D-E7198F4AEA13} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5FEECB7D-82C0-47D2-97B4-88CFC6CC0DE6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9AAA8A81-735A-44FB-97B5-C8A15F0D3BA0} = {6FC80D59-56EA-486E-AF1A-07EE093B549E}
+		{E61C0D60-66B4-4619-8D84-2096531C237A} = {8746FC1C-8DF1-410A-853E-EE71FAFC03B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35FEEC4-F722-4F12-8D7C-809F88D24692}
+	EndGlobalSection
+EndGlobal
