@@ -19,7 +19,7 @@ namespace RuleWayECommerce.WebApi.Controllers
         }
 
         [HttpGet("get-category-by-{id}")]
-        public async Task<IActionResult> GetByIdCategory([FromRoute]Guid id)
+        public async Task<IActionResult> GetByIdCategory([FromRoute] Guid id)
         {
             var result = await _mediator.Send(new GetByIdCategoryQuery(id));
 
