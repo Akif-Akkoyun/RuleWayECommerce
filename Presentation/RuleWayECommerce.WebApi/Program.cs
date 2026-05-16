@@ -8,6 +8,8 @@ var app = builder.Build();
 
 await app.ApplyMigrationsAsync();
 
+await app.SeedDataAsync();
+
 app.UseWebApiMiddleware();
 
 await app.RunAsync();
