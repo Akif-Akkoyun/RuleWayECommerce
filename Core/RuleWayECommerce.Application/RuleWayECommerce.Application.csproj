@@ -17,11 +17,4 @@
     <ProjectReference Include="..\RuleWayECommerce.Domain\RuleWayECommerce.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Product\Commands\" />
-    <Folder Include="Features\Product\Handlers\" />
-    <Folder Include="Features\Product\Queries\" />
-    <Folder Include="Features\Product\Results\" />
-  </ItemGroup>
-
 </Project>

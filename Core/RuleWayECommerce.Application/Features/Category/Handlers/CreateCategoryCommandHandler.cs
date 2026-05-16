@@ -6,15 +6,9 @@ using RuleWayECommerce.Domain.Entities;
 
 namespace RuleWayECommerce.Application.Features.Category.Handlers
 {
-    public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, CategoryResult>
+    public class CreateCategoryCommandHandler (ICategoryRepository _categoryRepository)
+        : IRequestHandler<CreateCategoryCommand, CategoryResult>
     {
-        private readonly ICategoryRepository _categoryRepository;
-
-        public CreateCategoryCommandHandler(ICategoryRepository categoryRepository)
-        {
-            _categoryRepository = categoryRepository;
-        }
-
         public async Task<CategoryResult> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
         {
             var category = new CategoryEntity

@@ -5,15 +5,9 @@ using RuleWayECommerce.Application.Interfaces;
 
 namespace RuleWayECommerce.Application.Features.Category.Handlers
 {
-    public class GetAllCategoriesQueryHandler : IRequestHandler<GetAllCategoriesQuery, List<GetAllCategoriesQueryResult>>
+    public class GetAllCategoriesQueryHandler (ICategoryRepository _categoryRepository)
+        : IRequestHandler<GetAllCategoriesQuery, List<GetAllCategoriesQueryResult>>
     {
-        private readonly ICategoryRepository _categoryRepository;
-
-        public GetAllCategoriesQueryHandler(ICategoryRepository categoryRepository)
-        {
-            _categoryRepository = categoryRepository;
-        }
-
         public async Task<List<GetAllCategoriesQueryResult>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
         {
             var categories = await _categoryRepository.GetAllAsync();

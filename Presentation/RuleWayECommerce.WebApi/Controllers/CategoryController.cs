@@ -7,16 +7,10 @@ namespace RuleWayECommerce.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoryController : ControllerBase
+    public class CategoryController (IMediator _mediator)
+        : ControllerBase
     {
-        private readonly IMediator _mediator;
-
-        public CategoryController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
-
-        [HttpGet]
+        [HttpGet("category-list")]
         public async Task<IActionResult> GetAllCategories()
         {
             var result = await _mediator.Send(new GetAllCategoriesQuery());
@@ -24,8 +18,8 @@ namespace RuleWayECommerce.WebApi.Controllers
             return Ok(result);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetByIdCategory(Guid id)
+        [HttpGet("get-category-by-{id}")]
+        public async Task<IActionResult> GetByIdCategory([FromRoute]Guid id)
         {
             var result = await _mediator.Send(new GetByIdCategoryQuery(id));
 
@@ -35,7 +29,7 @@ namespace RuleWayECommerce.WebApi.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<IActionResult> CreateCategory([FromBody] CreateCategoryCommand command)
         {
             var result = await _mediator.Send(command);
@@ -43,8 +37,8 @@ namespace RuleWayECommerce.WebApi.Controllers
             return Ok(result);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCategory(Guid id, [FromBody] UpdateCategoryCommand command)
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateCategory([FromRoute] Guid id, [FromBody] UpdateCategoryCommand command)
         {
             command.Id = id;
 
@@ -56,8 +50,8 @@ namespace RuleWayECommerce.WebApi.Controllers
             return Ok(result);
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCategory(Guid id)
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
         {
             var result = await _mediator.Send(new DeleteCategoryCommand
             {

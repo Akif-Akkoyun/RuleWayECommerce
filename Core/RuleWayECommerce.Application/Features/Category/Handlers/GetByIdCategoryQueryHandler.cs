@@ -5,15 +5,9 @@ using RuleWayECommerce.Application.Interfaces;
 
 namespace RuleWayECommerce.Application.Features.Category.Handlers
 {
-    public class GetByIdCategoryQueryHandler : IRequestHandler<GetByIdCategoryQuery, GetByIdCategoryQueryResult?>
+    public class GetByIdCategoryQueryHandler (ICategoryRepository _categoryRepository)
+        : IRequestHandler<GetByIdCategoryQuery, GetByIdCategoryQueryResult?>
     {
-        private readonly ICategoryRepository _categoryRepository;
-
-        public GetByIdCategoryQueryHandler(ICategoryRepository categoryRepository)
-        {
-            _categoryRepository = categoryRepository;
-        }
-
         public async Task<GetByIdCategoryQueryResult?> Handle(GetByIdCategoryQuery request, CancellationToken cancellationToken)
         {
             var category = await _categoryRepository.GetByIdAsync(request.Id);
