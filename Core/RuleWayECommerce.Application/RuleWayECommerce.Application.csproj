@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="8.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,8 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Product\" />
-    <Folder Include="Features\Category\" />
+    <Folder Include="Features\Product\Commands\" />
+    <Folder Include="Features\Product\Handlers\" />
+    <Folder Include="Features\Product\Queries\" />
+    <Folder Include="Features\Product\Results\" />
   </ItemGroup>
 
 </Project>

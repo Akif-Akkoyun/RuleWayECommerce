@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6cbgtWoDBrs=",
+  "dgSpecHash": "PGbEH585DHA=",
   "success": true,
   "projectFilePath": "C:\\Users\\akifa\\Desktop\\All-Projects\\RuleWayECommerce\\Core\\RuleWayECommerce.Application\\RuleWayECommerce.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\akifa\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+    "C:\\Users\\akifa\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\akifa\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }

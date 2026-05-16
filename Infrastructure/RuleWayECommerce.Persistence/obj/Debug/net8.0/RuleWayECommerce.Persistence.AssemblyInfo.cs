@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RuleWayECommerce.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5aa532b287d0ee46ccfee533bf0d780f9c709805")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcc3ccca52e20e2a2f48a4a4166d5b5b9d386436")]
 [assembly: System.Reflection.AssemblyProductAttribute("RuleWayECommerce.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RuleWayECommerce.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
