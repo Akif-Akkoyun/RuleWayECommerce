@@ -1,0 +1,12 @@
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\bin\Debug\net8.0\RuleWayECommerce.Domain.deps.json
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\bin\Debug\net8.0\RuleWayECommerce.Domain.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\bin\Debug\net8.0\RuleWayECommerce.Domain.pdb
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.AssemblyInfo.cs
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.sourcelink.json
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\refint\RuleWayECommerce.Domain.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\RuleWayECommerce.Domain.pdb
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Domain\obj\Debug\net8.0\ref\RuleWayECommerce.Domain.dll

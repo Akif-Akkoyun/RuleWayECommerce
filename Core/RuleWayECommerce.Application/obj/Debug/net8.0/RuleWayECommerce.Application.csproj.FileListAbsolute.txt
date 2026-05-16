@@ -1,0 +1,16 @@
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\bin\Debug\net8.0\RuleWayECommerce.Application.deps.json
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\bin\Debug\net8.0\RuleWayECommerce.Application.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\bin\Debug\net8.0\RuleWayECommerce.Application.pdb
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\bin\Debug\net8.0\RuleWayECommerce.Domain.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\bin\Debug\net8.0\RuleWayECommerce.Domain.pdb
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.csproj.AssemblyReference.cache
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.AssemblyInfoInputs.cache
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.AssemblyInfo.cs
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.sourcelink.json
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayE.8E7EA0FE.Up2Date
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\refint\RuleWayECommerce.Application.dll
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\RuleWayECommerce.Application.pdb
+C:\Users\akifa\Desktop\All-Projects\RuleWayECommerce\Core\RuleWayECommerce.Application\obj\Debug\net8.0\ref\RuleWayECommerce.Application.dll
