@@ -1,6 +1,6 @@
 ﻿using RuleWayECommerce.Domain.Entities;
 
-namespace RuleWayECommerce.Application.Interfaces.Repositories
+namespace RuleWayECommerce.Application.Interfaces
 {
     public interface ICategoryRepository
     {

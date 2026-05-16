@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace RuleWayECommerce.Application.Extensions
+namespace RuleWayECommerce.Application.DependencyInjection
 {
     public static class ApplicationLayerExtensions
     {

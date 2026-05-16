@@ -2,19 +2,12 @@
 using RuleWayECommerce.Application.Features.Category.Commands;
 using RuleWayECommerce.Application.Features.Category.Results;
 using RuleWayECommerce.Application.Interfaces;
-using RuleWayECommerce.Application.Interfaces.Repositories;
 
 namespace RuleWayECommerce.Application.Features.Category.Handlers
 {
-    public class UpdateCategoryCommandHandler : IRequestHandler<UpdateCategoryCommand, CategoryResult?>
+    public class UpdateCategoryCommandHandler (ICategoryRepository _categoryRepository)
+        : IRequestHandler<UpdateCategoryCommand, CategoryResult?>
     {
-        private readonly ICategoryRepository _categoryRepository;
-
-        public UpdateCategoryCommandHandler(ICategoryRepository categoryRepository)
-        {
-            _categoryRepository = categoryRepository;
-        }
-
         public async Task<CategoryResult?> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
             var category = await _categoryRepository.GetByIdAsync(request.Id);
