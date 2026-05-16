@@ -7,7 +7,7 @@
         public int StockQuantity { get; set; }
         public bool IsLive { get; set; } = false;
         //Nav Prop
-        public CategoryEntity Category { get; set; } = null!;
+        public CategoryEntity Category { get; set; } = new CategoryEntity();
         public Guid CategoryId { get; set; }
     }
 }
