@@ -14,4 +14,9 @@
     <ProjectReference Include="..\RuleWayECommerce.Domain\RuleWayECommerce.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Product\" />
+    <Folder Include="Features\Category\" />
+  </ItemGroup>
+
 </Project>

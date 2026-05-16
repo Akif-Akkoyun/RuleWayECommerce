@@ -1,23 +1,55 @@
 ### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Template for AL projects for Dynamics 365 Business Central
+
+# launch.json folder
 .vscode/
-#Cache folder
+
+# Cache folder
 .alcache/
-#Symbols folder
+
+# Symbols folder
 .alpackages/
-#Snapshots folder
+
+# Snapshots folder
 .snapshots/
-#Testing Output folder
+
+# Testing Output folder
 .output/
-#Extension App-file
+
+# Extension App-file
 *.app
-#Rapid Application Development File
+
+# Rapid Application Development File
 rad.json
-#Translation Base-file
+
+# Translation Base-file
 *.g.xlf
-#License-files
+
+# License-files
 *.bclicense
 *.flf
-#Test results file
+
+# Test results file
 TestResults.xml
+.lscache
+
+### Visual Studio ###
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+### .NET / Build Outputs ###
+[Bb]in/
+[Oo]bj/
+*.lscache
+*.cache
+
+### Rider / JetBrains ###
+.idea/
+*.DotSettings.user
+
+### OS ###
+.DS_Store
+Thumbs.db

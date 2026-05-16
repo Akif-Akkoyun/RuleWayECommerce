@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RuleWayECommerce.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3120701fb122e017346259e024a84fce1c8c672")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5aa532b287d0ee46ccfee533bf0d780f9c709805")]
 [assembly: System.Reflection.AssemblyProductAttribute("RuleWayECommerce.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RuleWayECommerce.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
