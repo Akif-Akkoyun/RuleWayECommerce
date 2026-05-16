@@ -17,7 +17,6 @@ namespace RuleWayECommerce.WebApi.Controllers
 
             return Ok(result);
         }
-
         [HttpGet("get-product-by-{id}")]
         public async Task<IActionResult> GetByIdProduct([FromRoute] Guid id)
         {
@@ -28,18 +27,25 @@ namespace RuleWayECommerce.WebApi.Controllers
 
             return Ok(result);
         }
-
         [HttpGet("filter")]
         public async Task<IActionResult> FilterProducts(
             [FromQuery] string? keyword,
             [FromQuery] int? minStock,
             [FromQuery] int? maxStock)
         {
+            if (minStock.HasValue && minStock.Value < 0)
+                return BadRequest("Minimum stock value cannot be negative.");
+
+            if (maxStock.HasValue && maxStock.Value < 0)
+                return BadRequest("Maximum stock value cannot be negative.");
+
+            if (minStock.HasValue && maxStock.HasValue && minStock.Value > maxStock.Value)
+                return BadRequest("Minimum stock value cannot be greater than maximum stock value.");
+
             var result = await _mediator.Send(new FilterProductsQuery(keyword, minStock, maxStock));
 
             return Ok(result);
         }
-
         [HttpPost("create")]
         public async Task<IActionResult> CreateProduct([FromBody] CreateProductCommand command)
         {
@@ -54,7 +60,6 @@ namespace RuleWayECommerce.WebApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         [HttpPut("update/{id}")]
         public async Task<IActionResult> UpdateProduct([FromRoute] Guid id, [FromBody] UpdateProductCommand command)
         {
@@ -74,7 +79,6 @@ namespace RuleWayECommerce.WebApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteProduct([FromRoute] Guid id)
         {
