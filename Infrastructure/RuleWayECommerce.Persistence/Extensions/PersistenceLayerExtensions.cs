@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using RuleWayECommerce.Application.Extensions;
-using RuleWayECommerce.Application.Interfaces.Repositories;
+using RuleWayECommerce.Application.DependencyInjection;
+using RuleWayECommerce.Application.Interfaces;
 using RuleWayECommerce.Persistence.AppDbContext;
 using RuleWayECommerce.Persistence.Repositories;
 

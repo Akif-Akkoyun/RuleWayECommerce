@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using RuleWayECommerce.Application.Features.Category.Commands;
 using RuleWayECommerce.Application.Interfaces;
-using RuleWayECommerce.Application.Interfaces.Repositories;
 
 namespace RuleWayECommerce.Application.Features.Category.Handlers
 {

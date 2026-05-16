@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RuleWayECommerce.Application.Interfaces.Repositories;
+using RuleWayECommerce.Application.Interfaces;
 using RuleWayECommerce.Domain.Entities;
 using RuleWayECommerce.Persistence.AppDbContext;
 
