@@ -8,10 +8,20 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="8.0.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RuleWayECommerce.Domain\RuleWayECommerce.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Product\Commands\" />
+    <Folder Include="Features\Product\Handlers\" />
+    <Folder Include="Features\Product\Queries\" />
+    <Folder Include="Features\Product\Results\" />
   </ItemGroup>
 
 </Project>
